@@ -1,5 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
+A modern, feature-rich JobHost built with Next.js, Prisma, PostgreSQL, React.js, and Tailwind CSS. This project allows users to find jobs in various fields by applying filters and manage user profile,and employers to create jobs and manage applicants on particular job while providing a smooth and engaging user experience.
 ## Getting Started
 
 First, run the development server:
