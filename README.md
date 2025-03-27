@@ -1,5 +1,7 @@
-A modern, feature-rich JobHost built with Next.js, Prisma, PostgreSQL, React.js, and Tailwind CSS. This project allows users to find jobs in various fields by applying filters and manage user profile,and employers to create jobs and manage applicants on particular job while providing a smooth and engaging user experience.
-## Getting Started
+
+## Fantune
+
+A music SAAS platform , it has voting system
 
 First, run the development server:
 
