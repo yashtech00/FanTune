@@ -1,4 +1,5 @@
 import { NextAuthOptions, Session } from "next-auth";
+
 import bcrypt from "bcryptjs";
 import { JWT } from "next-auth/jwt";
 import Credentials from "next-auth/providers/credentials";
@@ -7,8 +8,6 @@ import GitHubProvider from "next-auth/providers/github";
 import { emailSchema, passwordSchema } from "@/schema/credentials-schema";
 import { PrismaClientInitializationError } from "@prisma/client/runtime/library";
 import { prisma } from "./db";
-import { User } from "lucide-react";
-
 
 export const authOptions = {
   providers: [
@@ -145,7 +144,6 @@ export const authOptions = {
             const newUser = await prisma.user.create({
               data: {
                 email: user['email'] ?? "",
-                name: user['name'] ?? "" ,
                 provider: "Github"
               }
             });

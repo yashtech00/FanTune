@@ -84,7 +84,7 @@ export default function SigninCard({ setFormType: setState }: SigninCardProps) {
             <Card className="w-full max-w-md mx-auto bg-gray-800 bg-opacity-50 p-8 rounded-lg">
               <CardHeader>
                 <CardTitle className="text-center text-3xl font-bold tracking-tighter sm:text-4xl text-white">
-                  Login to Muzer
+                  Login to FanTune
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
